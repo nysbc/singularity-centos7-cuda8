@@ -10,7 +10,7 @@ Include: yum wget
     export LD_LIBRARY_PATH=$CUDA_LIB
     export PATH=$CUDA_BIN:$PATH
 %runscript
-# commands to be executed when the container runs
+# commands to be executed when the container runs 
 echo "LD_LIBRARY_PATH: $LD_LIBRARY_PATH"
 echo "PATH: $PATH"
 echo "Arguments received: $*"
